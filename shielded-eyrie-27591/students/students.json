@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Noam Roiz",
+        "id": 1,
+        "grade":90,
+        "year": 2016
+    },
+    {
+        "name": "Roni Frimovich",
+        "id": 2,
+        "grade":99,
+        "year": 2015
+    },
+    {
+        "name": "Mor Kasus",
+        "id": 3,
+        "grade":95,
+        "year": 2015
+    },
+    {
+        "name": "Daniel shmama",
+        "id": 4,
+        "grade":92,
+        "year": 2016
+    },
+    {
+        "name": "Yossi Azu",
+        "id": 5,
+        "grade":88,
+        "year": 2014
+    },
+    {
+        "name": "Or Ben David",
+        "id": 6,
+        "grade":89,
+        "year": 2014
+    },
+    {
+        "name": "Tom Yahav",
+        "id": 7,
+        "grade":65,
+        "year": 2015
+    },
+    {
+        "name": "Itay Noama",
+        "id": 8,
+        "grade":75,
+        "year": 2015
+    }
+
+]
