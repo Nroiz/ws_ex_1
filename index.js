@@ -17,20 +17,23 @@ app.get('*',function(req,res,next){
 
 app.get('/allExcellenceStudents',function(req,res){
     console.log("Students success");
-    res.send(studentsData.getAllExcellenceStudent());
-    res.end();
+    studentsData.getAllExcellenceStudents(function(data){
+        res.send(data);
+    });
 });
 
 app.get('/studentById/:id', function(req,res){
-    var studId = req.params.id;
-    res.send(studentsData.getStudGrade(studId));
-    res.end();
+    var id = req.params.id;
+    studentsData.getStudGrade(id,function(data){
+        res.send(data);
+    });
 });
 
 app.get('/getExcellenceByYear/:year', function(req,res){
     var year = req.params.year;
-    res.send(studentsData.getExcellenceByYear(year));
-    res.end();
+    studentsData.getExcellenceByYear(year,function(data){
+        res.send(data);
+    });
 });
 
 app.listen(port);
