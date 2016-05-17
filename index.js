@@ -1,11 +1,8 @@
 var express = require('express');
-var bodyParser = require('Body-Parser');
 var students = require("./students");
 
 var app = express();
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}));
 var port = process.env.PORT || 3000;
 
 var studentsData = new students();
